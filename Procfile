@@ -1,1 +1,1 @@
-web: gunicorn jobrunnerx.run:app --log-file -
+web: gunicorn jobrunnerx.run:app  --timeout 80  --log-file -
