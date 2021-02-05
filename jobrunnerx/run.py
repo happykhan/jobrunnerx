@@ -28,7 +28,7 @@ def rmlst_proxy():
 
 @app.route('/')
 def index():
-    return 'HI'
+    return '<H1>This is JobRunner</h1>'
 
 
 
