@@ -1,1 +1,1 @@
-web: gunicorn jobrunnerx.wsgi
+web: gunicorn jobrunnerx.run --log-file -
