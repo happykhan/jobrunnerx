@@ -24,17 +24,11 @@ def rmlst_proxy():
         return data 
     else:
         print(response.text)
-        return response.text        
-        # try: 
-        #     data['taxon_prediction']
-        # except KeyError:
-        #     print("No match")
-        #     sys.exit(0)
-        # for match in data['taxon_prediction']:
-        #         print("Rank: " + match['rank'])
-        #         print("Taxon:" + match['taxon'])
-        #         print("Support:" + str(match['support']) + "%")
-        #         print("Taxonomy" + match['taxonomy'] + "\n")
+        return response.text       
+
+@app.route('/')
+def index():
+    return 'HI'
 
 
 
