@@ -1,1 +1,1 @@
-web: gunicorn jobrunnerx.run --log-file -
+web: gunicorn jobrunnerx.run:app --log-file -
